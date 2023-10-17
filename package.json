@@ -1,0 +1,15 @@
+{
+  "name": "mkleemoff-budgtr-back-end",
+  "version": "1.0.0",
+  "description": "This is the back-end part to my Budgtr app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Kleemoff",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
