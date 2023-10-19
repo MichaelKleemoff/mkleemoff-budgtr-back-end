@@ -36,7 +36,7 @@ module.exports = [
 	{
 		id: uuidv4(),
 		item_name: 'Mitsubishi Mirage payment',
-		amount: -287,
+		amount: 287,
 		date: '2022-07-05',
 		from: 'Mitsubishi Auto Financing',
 		category: 'Car Finance',
@@ -46,7 +46,7 @@ module.exports = [
 	{
 		id: uuidv4(),
 		item_name: 'Car insurance',
-		amount: -190,
+		amount: 190,
 		date: '2022-07-15',
 		from: 'Dairyland Auto Insurance',
 		category: 'Car Insurance',
@@ -56,7 +56,7 @@ module.exports = [
 	{
 		id: uuidv4(),
 		item_name: 'Electricity',
-		amount: -250,
+		amount: 250,
 		date: '2022-07-05',
 		from: 'Con Edison',
 		category: 'Electricity',
@@ -66,7 +66,7 @@ module.exports = [
 	{
 		id: uuidv4(),
 		item_name: 'Internet/cable',
-		amount: -300,
+		amount: 300,
 		date: '2022-07-01',
 		from: 'Spectrum',
 		category: 'Internet/Cable',
@@ -76,7 +76,7 @@ module.exports = [
 	{
 		id: uuidv4(),
 		item_name: 'Groceries',
-		amount: -220,
+		amount: 220,
 		date: '2022-07-23',
 		from: 'Wegmans Food Markets',
 		category: 'Groceries',
@@ -86,7 +86,7 @@ module.exports = [
 	{
 		id: uuidv4(),
 		item_name: 'Gasoline',
-		amount: -100,
+		amount: 100,
 		date: '2022-07-21',
 		from: 'Exxon',
 		category: 'Gasoline',

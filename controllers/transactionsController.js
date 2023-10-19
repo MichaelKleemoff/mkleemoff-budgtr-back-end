@@ -13,4 +13,15 @@ transactions.get('/', (req, res) => {
 	}
 });
 
+// SHOW ROUTE
+transactions.get('/:arrayIndex', (req, res) => {
+	const { arrayIndex } = req.params;
+
+	if (transactionsData[arrayIndex]) {
+		res.json(transactionsData[arrayIndex]);
+	} else {
+		res.redirect('/*');
+	}
+});
+
 module.exports = transactions;
