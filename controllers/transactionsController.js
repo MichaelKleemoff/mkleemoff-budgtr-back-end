@@ -24,4 +24,10 @@ transactions.get('/:arrayIndex', (req, res) => {
 	}
 });
 
+// CREATE ROUTE
+transactions.post('/', (req, res) => {
+	transactionsData.push(req.body);
+	res.json(transactionsData[transactionsData.length - 1]);
+});
+
 module.exports = transactions;
