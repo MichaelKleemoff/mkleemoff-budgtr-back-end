@@ -30,4 +30,16 @@ transactions.post('/', (req, res) => {
 	res.json(transactionsData[transactionsData.length - 1]);
 });
 
+// DESTROY ROUTE
+transactions.delete('/:arrayIndex', (req, res) => {
+	const { arrayIndex } = req.params;
+
+	if (transactionsData[arrayIndex]) {
+		const deletedTransaction = transactionsData.splice(arrayIndex, 1);
+		res.status(200).json(deletedTransaction);
+	} else {
+		res.redirect('/*');
+	}
+});
+
 module.exports = transactions;
