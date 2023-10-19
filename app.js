@@ -7,11 +7,12 @@ const cors = require('cors');
 const app = express();
 
 // MIDDLEWARE
-// Turn JSON into usable JS
-app.use(express.json());
+
 // Enable CORS for the server
 app.use(cors());
 
+// Turn JSON into usable JS
+app.use(express.json());
 app.use('/transactions', transactions);
 
 // ROUTES
